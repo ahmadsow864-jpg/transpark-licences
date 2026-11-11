@@ -1,0 +1,17 @@
+{
+  "name": "transpark-licence-serveur-central",
+  "version": "1.0.0",
+  "description": "Serveur central de validation des licences TRANSPARK (A.B.D. Consulting)",
+  "main": "serveur_licences.js",
+  "scripts": {
+    "start": "node serveur_licences.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.4.0",
+    "dotenv": "^16.4.5"
+  }
+}
